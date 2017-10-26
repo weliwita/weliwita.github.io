@@ -1,0 +1,35 @@
+# Site settings
+title: Inside {CurlyBraces}
+tagline: 'Rasika Weliwita on IAM'
+description: 'I read, learn, code and blog'
+
+author:
+  name: 'Rasika Weliwita'
+  url: https://blog.weliwita.com
+  email: weliwita@gmail.com
+
+url: http://blog.weliwita.com
+github: https://github.com/weliwita/
+baseurl: ""
+
+paginate: 5
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile','node_modules','package.json']
+
+github_username: weliwita
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+
+disqus:
+  shortname: 'weliwita'
+
+plugins: [jekyll-feed, jekyll-gist, jekyll-paginate]
+
+sass:
+  style: compressed
+
+google_analytics: UA-108472837-1
+
